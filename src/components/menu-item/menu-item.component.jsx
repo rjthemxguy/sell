@@ -1,4 +1,4 @@
-
+import "./mene-item.styles.scss";
 
 const MenuItem = ({title}) => (
 
