@@ -1,4 +1,4 @@
-
+import "./homepage.styles.scss";
 
 
 const HomePage = () => (
@@ -7,42 +7,42 @@ const HomePage = () => (
         <div className="directory-menu">
             <div className="menu-item">
                 <div className="content">
-                    <div className="title">
-                        <h1>Hats</h1>
+        
+                        <h1 className="title">Hats</h1>
                         <span>Shop Now</span>
-                    </div>
+                    
                 </div>
             </div>
             <div className="menu-item">
                 <div className="content">
-                    <div className="title">
-                        <h1>Jackets</h1>
+                    
+                        <h1 className="title">Jackets</h1>
                         <span>Shop Now</span>
-                    </div>
+                    
                 </div>
             </div>
             <div className="menu-item">
                 <div className="content">
-                    <div className="title">
-                        <h1>Sneakers</h1>
+                    
+                        <h1 className="title">Sneakers</h1>
                         <span>Shop Now</span>
-                    </div>
+                    
                 </div>
             </div>
             <div className="menu-item">
                 <div className="content">
-                    <div className="title">
-                        <h1>Womens</h1>
+                    
+                        <h1 className="title">Womens</h1>
                         <span>Shop Now</span>
-                    </div>
+                    
                 </div>
             </div>
             <div className="menu-item">
                 <div className="content">
-                    <div className="title">
-                        <h1>Mens</h1>
+                    
+                        <h1 className="title">Mens</h1>
                         <span>Shop Now</span>
-                    </div>
+                    
                 </div>
             </div>
         </div>
