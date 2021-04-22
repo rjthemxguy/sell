@@ -1,14 +1,15 @@
-import MenuItem from "../components/menu-item/menu-item.component";
+import react from "react";
+import MenuItem from "../../components/menu-item/menu-item.component";
 import "./directory.styles.scss";
 
-class Directory extends React.Component {
+class Directory extends react.Component {
 
     constructor() {
         super();
 
         this.state = {
 
-            sections = [
+            sections : [
                 {
                   title: 'hats',
                   imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
