@@ -1,8 +1,8 @@
-import react from "react";
+import React from "react";
 
 import "./sign-in.styles.scss";
 
-class SignIn extends react.Component {
+class SignIn extends React.Component {
 
     constructor(props) {
         super(props);
@@ -11,7 +11,7 @@ class SignIn extends react.Component {
         this.state = {
             email: '',
             password: ''
-        }
+        };
 
 
     }
@@ -25,7 +25,7 @@ class SignIn extends react.Component {
     
 
         this.setState({email: "", password: ""})
-    }
+    };
 
     handleChange = event => {
 
@@ -33,7 +33,7 @@ class SignIn extends react.Component {
         const {value, name} = event.target;
 
         this.setState({[name]:value})
-    }
+    };
 
     render () {
 
@@ -64,7 +64,7 @@ class SignIn extends react.Component {
                     <label>Email</label>
 
                     <input
-                        onClick={this.handleSubmit}
+                        onClick = {this.handleSubmit}
                         type="submit"
                         value="Submit Form"/>
 
