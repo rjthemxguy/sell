@@ -36,7 +36,7 @@ render() {
 
   return (
     <div className="App">
-      <Header></Header>
+      <Header currentUser={this.state.currentUser}/>
       <Switch>
         <Route exact path = "/" component = {HomePage}/> 
         <Route exact path = "/shop" component = {ShopPage}/> 
