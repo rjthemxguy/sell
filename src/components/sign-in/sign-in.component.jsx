@@ -29,7 +29,7 @@ class SignIn extends React.Component {
 
        try {
         await auth.signInWithEmailAndPassword(email,password);
-        this.setState({email:", password:"});
+        this.setState({email:"", password:""});
 
 
        } catch (error) { 
